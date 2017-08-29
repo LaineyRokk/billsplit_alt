@@ -1,0 +1,76 @@
+*{
+	margin:0;
+	padding:0;
+}
+ul,li{
+	padding: 0;
+	list-style: none;
+}
+body{
+	font:14px Arial;
+}
+a{
+	text-decoration: none;
+}
+.actions{
+	padding:10px;
+	background: #666;
+}
+.actionBtn{
+	width:100px;
+	height: 40px;
+	background: #91D5D0;
+	color: #333;
+	display: inline-block;
+	line-height: 40px;
+	text-align: center;
+	margin-right: 10px;
+}
+.listform,#frSave{
+	display: none;
+}
+.conatiner h1{padding:10px;font-size: 16px;}
+.conatiner .myFriend,.conatiner .myLists{width:50%;float: left;}
+.NeedToPay{display: none;}
+.NeedToPay span{display: block;}
+.conatiner li a{display: block;}
+.ListDescription{font-size: 14px;font-weight: bold;}
+.myFriend li,.myLists li{padding: 10px;}
+.listform{padding: 10px;}
+.listform label{display: block;font-weight: bold;font-size: 12px;padding-bottom: 5px}
+.listform input[type=text],.listform input[type=number]{
+	width:300px;
+	border:1px solid #ccc;
+	height: 28px;
+	line-height: 28px;
+	padding: 5px;
+	box-sizing:border-box;
+}
+.listform input[type=number]{
+	padding:0 5px;
+}
+.listform input[type=submit]{
+	width:80px;
+	height: 30px;
+	line-height: 30px;
+	border:1px solid #ccc;
+	background: #333;
+	color: #fff;
+}
+#listFriends{
+	max-height: 100px;
+	min-height: 50px;
+	width:300px;
+	border:1px solid #ccc;
+}
+.formRow{padding:5px 0}
+#lsChange{display: none;}
+
+.myinfo{
+  position:absolute;
+  z-index:10000;
+  bottom:10px;
+  left:10px;
+  font:16px Arial;
+}
+.myinfo a,.myinfo span{font-size:18;font-weight:bold;color:#333}
